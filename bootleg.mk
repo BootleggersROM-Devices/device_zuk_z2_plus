@@ -41,9 +41,9 @@ TARGET_VENDOR_DEVICE_NAME := z2_plus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="z2_plus" \
     PRODUCT_NAME="z2_plus" \
-    BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-keys" \
-    PRIVATE_BUILD_DESC="z2_plus-user 7.0 NRD90M 3.1.117_171110 release-keys"
-
+    PRIVATE_BUILD_DESC="z2_plus-user 7.0 NRD90M 3.1.117_171110 release-keys" \
+    BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-keys" 
+    
 TARGET_VENDOR := zuk
 
 # Bootleg Device Maintainers
@@ -53,5 +53,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Show build as release(to pass CTS without Magisk)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_VERSION_TAGS="release-keys"
-
-
