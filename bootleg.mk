@@ -49,3 +49,9 @@ TARGET_VENDOR := zuk
 # Bootleg Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="amog787"
+
+# Show build as release(to pass CTS without Magisk)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_VERSION_TAGS="release-keys"
+
+
