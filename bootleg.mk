@@ -23,7 +23,7 @@ $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-BOOTLEG_BUILD_TYPE := Shishufied
+BOOTLEG_ := Shishufied
 # Inherit some common AOSP-OMS stuff.
 #$(call inherit-product, vendor/aosp/common.mk)
 
